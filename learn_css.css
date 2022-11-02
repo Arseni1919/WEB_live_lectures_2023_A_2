@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    background-color: #777;
+    /*background-color: rgb(100, 40, 255);*/
+    /*font-size: 20px;*/
+    /*font-size: 1.4em;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    /*font-family: Arial, Tahoma, sans-serif;*/
+    /*font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;*/
+    /*font-weight: normal;*/
+    /*font-weight: bold;*/
+    font: bold 16px 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+}
+
+p {
+    line-height: 1.6em;
+}
+
+/*ul {*/
+/*    line-height: 1.6em;*/
+/*}*/
+
+.picked {
+    color: yellowgreen;
+    background-color: darkgreen;
+}
+
+#special-item {
+    color: red;
+}
+
+p {
+    /*margin-left: 40px;*/
+    /*margin-right: 40px;*/
+    /*margin-top: 40px;*/
+    /*margin-bottom: 40px;*/
+    /*margin: 40px 20px;*/
+    /*margin: 10px 2px 50px 5px;*/
+    margin: 5px;
+
+    /*padding-top: 40px;*/
+    /*padding-bottom: 40px;*/
+    /*padding-right: 40px;*/
+    /*padding-left: 40px;*/
+    /*padding: 10px 30px;*/
+    padding: 20px;
+
+    /*border: black solid;*/
+    /*border-right: 5px red solid;*/
+    /*border-left: 2px blue solid;*/
+    border: 5px red dotted;
+    border-radius: 50px;
+
+}
