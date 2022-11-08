@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: steelblue;
+}
+
+h2 {
+    color: mediumblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+#box-1 {
+    background-color: #333;
+    color: #fff;
+    border: 5px red solid;
+
+    margin: 20px 5px;
+    padding: 20px;
+}
+
+#box-1 h2 {
+    color: yellow;
+    font-style: italic;
+    /*word-spacing: 1.2em;*/
+    letter-spacing: 0.3em;
+}
+
+.box-2 {
+    border: 3px #aaa solid;
+    margin: 20px 5px;
+    padding: 20px;
+}
+
+footer {
+    height: 300px;
+}
+
+ul li {
+    color: white;
+    background-color: black;
+    margin: 2px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: darkblue;
+    padding: 10px;
+    margin: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+a:visited {
+    background-color: purple;
+}
+
+a:hover {
+    color: red;
+    background-color: white;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+    border: 1px red solid;
+}
+
+/*h2:hover {*/
+/*    background-color: blue;*/
+/*    color: white;*/
+/*}*/
+
+
+/********** Form Styles *************/
+
+.my-form {
+    padding: 10px;
+    margin: 20px;
+}
+
+.my-form .form-group {
+    padding-bottom: 15px;
+}
+
+.my-form label {
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea, .my-form input[type="email"] {
+    padding: 8px;
+    width: 80%;
+}
+
+.my-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+
+}
+
+.my-form input[type="submit"]:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.block {
+    padding: 10px;
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    border: 2px #333 solid;
+}
+
+/********** p-box *************/
+
+.p-box {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url("pics/bg3.jpg");
+    /*background-size: 10%;*/
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+.p-box h1 {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
+.p-box h2 {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+
+/********** pseudo-elements *************/
+
+ul li:nth-child(even) {
+    background-color: purple;
+}
+
+@media (max-width: 600px) {
+
+    .block {
+        display: block;
+        width: 100%;
+    }
+
+    .my-form {
+        /*text-align: center;*/
+        /*width: 100%;*/
+        display: none;
+    }
+
+    #box-1, .box-2 {
+        text-align: center;
+        background-color: darkblue;
+        color: white;
+        border: 1px darkblue solid;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

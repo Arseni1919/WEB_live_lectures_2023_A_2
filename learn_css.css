@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
 h1 {
     color: white;
     background-color: #777;
@@ -29,7 +35,7 @@ p {
     color: red;
 }
 
-p {
+.red_paragraph {
     /*margin-left: 40px;*/
     /*margin-right: 40px;*/
     /*margin-top: 40px;*/
@@ -48,7 +54,7 @@ p {
     /*border: black solid;*/
     /*border-right: 5px red solid;*/
     /*border-left: 2px blue solid;*/
-    border: 5px red dotted;
-    border-radius: 50px;
+    border: 10px red solid;
+    border-radius: 20px;
 
 }
