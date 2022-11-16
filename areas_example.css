@@ -1,0 +1,38 @@
+header, nav, main, aside, footer {
+    background-color: cadetblue;
+    border: 1px solid black;
+}
+
+body {
+    display: grid;
+    height: 700px;
+    grid-template-areas:
+'nav header sidebar'
+'nav content content'
+'footer footer footer';
+
+    grid-template-columns: 1fr 4fr 1fr;
+    /*grid-template-rows: 80px 80px 70px;*/
+    grid-template-rows: 10% 80% 10%;
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: content;
+}
+
+aside {
+    grid-area: sidebar;
+}
+
+nav {
+    grid-area: nav;
+}
+
+footer {
+    grid-area: footer;
+}

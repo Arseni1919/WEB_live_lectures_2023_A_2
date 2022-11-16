@@ -1,0 +1,67 @@
+body {
+    background-color: #333;
+}
+
+.box {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    /*animation: my-animation;*/
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 2;
+    /*animation-iteration-count: infinite;*/
+
+    /*animation-delay: 2s;*/
+
+    /*animation-direction: reverse;*/
+    animation-direction: alternate;
+
+    /*animation-timing-function: linear;*/
+    /*animation-timing-function: ease-in;*/
+    animation-timing-function: ease-out;
+
+    transition-property: background-color, border-radius;
+    transition-duration: 0.5s, 2s;
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 50%;
+}
+
+@keyframes my-animation {
+    0% {
+        background-color: white;
+        top: 0;
+        left: 0;
+        border-radius: 0 0 0 0;
+    }
+    25% {
+        background-color: green;
+        top: 0;
+        left: 300px;
+        border-radius: 0 0 0 50%;
+    }
+    50% {
+        background-color: yellow;
+        top: 300px;
+        left: 300px;
+        border-radius: 0 0 50% 50%;
+    }
+    75% {
+        background-color: red;
+        top: 300px;
+        left: 0;
+        border-radius: 0 50% 50% 50%;
+    }
+    100% {
+        background-color: pink;
+        top: 0;
+        left: 0;
+        border-radius: 50% 50% 50% 50%;
+    }
+}
+
